@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>PhonkOfDeadRussia - (Фонк мертвой россии) это сайт посвещенный русскому фонку</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/vidbg.css">
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <a href="#" class="float-md-start mb-0"><img src="assets/img/brand.png" alt=""></a>
+        <nav class="nav nav-masthead justify-content-center float-md-end my-5">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          <a class="nav-link" href="playlist.html">Плейлист</a>
+          <a class="nav-link" href="#">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-3">
+      <h1>Почувствуй фонк по русски.</h1>
+      <p class="lead">Это все тот же поджанр хип-хопа, но в русских реалях.</p>
+      <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Почувствовать</a>
+      </p>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+      Фонк это не только <span class="text-white">дрифт.</span>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/script/vidbg.js"></script>
+
+  <script>
+    jQuery(document).ready(function () {
+      new vidbg('body', {
+        mp4: 'assets/media/phonk.mp4',
+        overlay: true,
+        overlayColor: "#000",
+        overlayAlpha: 0.75,
+      })
+    })
+  </script>
+</body>
+
+</html>
