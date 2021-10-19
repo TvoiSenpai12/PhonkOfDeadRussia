@@ -12,7 +12,7 @@ const cover = document.querySelector('#cover');
 const songs = ['deadский сад - Winx (Phonk Edition)', 'lvl shadowraze feat. genjutsu - phonk 1000-7', 'NKOHA - White night', 'shadowraze feat. morphe_ya, TATT04EK, osi, zxcursed, tlkvwn, qakasha, kiberdyr', 'SXGXVX - От Винта', 'Shadowraze - shadowfiend'];
 
 // Отслеживание треков
-let songIndex = 2;
+let songIndex = 0;
 
 // Загрузка трека в DOM
 loadSong(songs[songIndex]);
